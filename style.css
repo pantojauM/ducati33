@@ -1,0 +1,271 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100;
+   vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+ 
+.head {
+    display: flex;
+    text-align: center;
+   justify-content: space-between;
+    height: 80px;
+   background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;   
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    height: 80px;
+   background: #000000;
+    position: center;
+    width: 100%;
+    z-index: 100;   
+}
+
+
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #e3e3e3;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.header{
+    height: 60 !important;
+    background: url(img/header.jpg) no-respeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: blu;
+}
+
+ p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #18daba;
+    padding: 0% 100xp;
+ }
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border:  2px solid rgb(255, 7, 7);
+    color: rgb(203, 20, 20);
+    text-decoration: none;
+    background: #000000;
+}
+
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+  background-image: url(https://i.pinimg.com/564x/e3/dd/60/e3dd600cd7c2d91d77124434306cfdd2.jpg);
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: aqua;
+    background: #a00e0e;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: chartreuse;
+
+}
+
+.box-container .box p {
+    padding: 0 115px;
+    font-size: 16px;
+}
+
+.about {
+    background: url(https://i.pinimg.com/564x/df/36/a0/df36a00e49306fd6831ce65452448024.jpg)
+
+}
+
+.price {
+    background: url(https://riders.drivemag.com/wp-content/uploads/default/0001/99/Ducati-Streetfighter-V4-2060.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top:  20px;
+    background: #910909;
+    padding-bottom: 0;
+}
+
+.white-title{
+    color: rgb(238, 255, 0);
+}
+
+
+@media (max-width: 768px) {
+   
+   .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/2d/7f/81/2d7f81836d3c35bec5f3aa646cafd242.jpg);
+}
+
+.form-register{
+  width: 400px;
+  background: #000000;  
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: rgb(255, 0, 0);
+  box-shadow: 7px 13px 37px #ff0000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;  
+}
+
+.controls {
+   width: 100%;
+   background: #ffffff;
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border: 1px solid #ffffff;
+   font-family: "calibri";
+   font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100px;  
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px ;
+
+}
