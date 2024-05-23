@@ -27,7 +27,8 @@ body {
     text-align: center;
     height: 80px;
    background: #000000;
-    position: center;
+   display: flex;
+   justify-content: end;
     width: 100%;
     z-index: 100;   
 }
@@ -38,11 +39,11 @@ body {
     margin-left: 30px;
 }
 
-.logo a {
+.logo{
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 40%;
 }
 
 .navbar a {
@@ -208,6 +209,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} 
+.equipamiento.html{
+    display: flex;
+    
+    
 }
 
 body {
